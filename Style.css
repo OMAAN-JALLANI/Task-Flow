@@ -50,7 +50,9 @@ justify-content: center;
     align-items: center;
     justify-content: center; 
 }
-
+a{
+text-decoration: none;
+}
 .hero button{ 
     width: 250px;
     letter-spacing: 3px;
@@ -72,7 +74,7 @@ justify-content: center;
     height: 35px;
     width: 35px;
     border-radius: 50%;  
-    background-image: url(/arrow.png);
+    background-image: url(/arrow.webp);
     background-size: no-repeat;
     background-position: center;
     background-size: cover;
@@ -295,7 +297,7 @@ justify-content: center;
   transform: rotateY(180deg);
 }
 .pricing-card:hover .pricing-back {
-  transform: rotateY(340deg);
+  transform: rotateY(360deg);
 }
 
  
